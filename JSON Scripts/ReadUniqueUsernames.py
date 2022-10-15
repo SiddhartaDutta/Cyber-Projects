@@ -15,5 +15,6 @@ for key in data:
 		out[username] += 1
 
 print(out)
+print('Unique IDs: ' + str(len(out)))
 
 json_file.close()
